@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>WADCW2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <nav>
+        <div  id="container">
+            <div id="logo">
+                <i class="fab fa-WADCW2"></i> <span class="hide-on-phone"> WADCW2 </span>
+            </div>
+
+            <div id="link">
+                <a class="nav-anchor" href="#" > Listings</a>
+                <a class="nav-anchor" href="#" > Add</a>
+                <a class="nav-anchor" href="#" > Contact Us</a>
+        </div>
+
+            <div id="profile">
+             <div class="hide-on-phone host"> <div class="become-host">Create Account</div> </div>
+
+              <div id="user-box"> <i class="fas fa-bars"></i> <i class="far fa-user-circle user-icon"></i> </div>
+            </div>
+            
+        </div>
+    </nav>
+
+    <form id="search-bar" >
+        <div class="search-option"> 
+            <label for="location"> 
+                <div class="label">Location</div>
+                <input name="location" id="location" placeholder="Where are you going?"/>
+            </label>
+        </div>
+        
+        
+        
+
+        <div class="search-button">
+            <button onclick="preventDefault()"><i class="fas fa-search fa-xs"></i></button>
+        </div>
+    </form>
+
+    <section class="main-screen">
+
+        <div class="card bg-dark text-white" id="card-1">
+            <img src="couple-in-sri-lanka-1024x682.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay" id="image-text-container">
+              <h5 class="card-title" id="not-sure">Looking for a stay? You are at the correct place.</h5>
+              <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+              <a href="#" class="btn btn-primary" id="go-somewhere"><p>I'm flexible</p></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="third-section">
+
+        <h1 class="inspiration">Our Listings</h1>
+
+        <div class="third-section-content">
+        <div class="card bg-dark text-white" id="third-section-content-inner">
+            <img src="hiking.jpg" class="card-img" alt="">
+            <div class="card-img-overlay" id="image-text-container-third-section">
+              <h5 class="card-title" id="card-title-third-section">Find Your Stay.</h5>
+              <a href="#" class="btn btn-primary" id="button-third-section">See All Listings</a>
+            </div>
+          </div>
+
+          <div class="card bg-dark text-white" id="third-section-content-inner">
+            <img src="hotel.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay" id="image-text-container-third-section">
+              <h5 class="card-title" id="card-title-third-section"> Add property.</h5>
+              <a href="#" class="btn btn-primary" id="button-third-section">Add Listing.</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="fourth-section">
+
+        <p class="dummy-text">.</p>
+        <div class="card bg-dark text-white" id="fourth-section-content-inner">
+            <img src="contact us banner.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay" id="image-text-container-fourth-section">
+              <h5 class="card-title" id="card-title-fourth-section">For questions and assistance.</h5>
+              <a href="#" class="btn btn-primary" id="button-fourth-section">Contact Us</a>
+            </div>
+          </div>
+    </section>
+    
+    <div class="container my-5" id="footer-container" >
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
